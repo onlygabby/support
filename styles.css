@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Esempio di animazione */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Esempio di animazione applicata */
+nav a {
+    animation: fadeIn 1s ease-in-out;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
